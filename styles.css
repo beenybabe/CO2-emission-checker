@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  padding: 2rem;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+th {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: white;
+}
+#activityTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+#activityTable th, #activityTable td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: center;
+}
+#activityTable th {
+  background-color: #e0e0e0;
+}
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+th {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  color: white;
+}
+.btn:hover {
+  background-color: #0056b3;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
